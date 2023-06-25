@@ -25,7 +25,7 @@
     padding: 80px;
     padding-bottom: 0px;
     border-bottom: 90px solid var(--white);
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     inline-size: 100%;
     }
   
@@ -40,7 +40,7 @@
     position: inline-block;
     float: left;
     margin: 5%;
-    width: 60%;
+    width: 58%;
     font-size: 40px;
     color: var(--black);
     font-weight: bold;
@@ -101,11 +101,10 @@
     }
 
   .service {
-    display: block;
-    float: right;
+    display: inline-block;
     margin-bottom: 40px;
     height: fit-content;
-    inline-size: 80%;
+    inline-size: 100%;
     padding: 20px;
     background-color: var(--sage);
     color:var(--rust);
@@ -144,7 +143,47 @@
     float: right;
     margin-left: 25px;
     }
+    .projects {
+      margin: 2%;
+      display: inline-block;
+      flex-direction: row;
+      height: 20%;
+      inline-size: 20%;
+      position: relative;
+      
+    
+    }
+    .title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: var(--mustard);
+      border-radius:50%;
+      height:60%;
+      width:60%;
+      font-size: 100%;
+      text-align: center;
+      color:var(--green);
+      white-space:pre-wrap;
+      
+    }
 
+    .tile {
+      margin: 2%;
+      height:200px;
+      inline-size: 90%;
+      border-radius: 20%;
+      object-fit: cover;
+      
+
+    }
+
+    .tile:hover {
+      height: 220px;
+      inline-size: 100%;
+      
+    }
 
     .contact{
     display: inline-flex;
@@ -153,7 +192,9 @@
     max-height:35%;
     inline-size: 10%;
     justify-content: space-evenly;
-  }
+
+    }
+
   /*footer*/
   footer {
     padding: 30px;
