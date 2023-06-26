@@ -1,0 +1,210 @@
+* {
+    --black: #000000;
+    --white: #ffffff;
+    --rust: #925946;
+    --mustard: #c58b2a;
+    --sage: #c3c6b1;
+    --green: #4b553a;
+    --tan: #bf8f72;
+    --background:#f7e3d4;
+
+    }
+  
+  body {
+    font-size: 24px;
+    min-height: 100vh;
+    background-color: var(--background);
+    justify-content: center;
+    display: inline-block;
+    }
+  
+  /* header */
+  header {
+    color: var(--tan);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 80px;
+    padding-bottom: 0px;
+    border-bottom: 50px solid var(--white);
+    margin-bottom: 60px;
+    inline-size: 100%;
+    }
+  
+  header h1 {
+    position: relative;
+    font-size: 750%;
+    margin-bottom: -50px;
+    
+    }
+
+    hgroup p {
+    position: inline-block;
+    float: left;
+    margin: 7%;
+    width: 59%;
+    font-size: 40px;
+    color: var(--black);
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    }
+
+    .Hi { 
+    Font-size: 60px;
+    }
+
+
+    .semi {
+    position: relative;
+    float: right;
+    right:70px;
+    top: 60px;
+    max-height: 275px;
+    inline-size: 275px;
+    
+    }
+
+/* nav section */
+  .navbar {
+    display: inline-block;
+    margin-bottom: 15%;
+    inline-size: 100%;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    main nav h2 {
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--white);
+    font-size: 30px;
+    margin: 15px;
+    padding: 20px;
+    inline-size: fit-content;
+    border-radius: 10%;
+    }
+
+    main h2 a {
+    color: var(--tan);
+    text-decoration: none;
+    
+    }
+  
+     main a:hover {
+    color:var(--mustard);
+    font-size:larger;
+    }
+
+  /* main*/
+  main {
+    width: fit-content;
+    display: inline-block;
+    margin: 10%;
+    }
+
+  .service {
+    display: inline-block;
+    margin: 20px;
+    height: fit-content;
+    inline-size: 100%;
+    padding: 20px;
+    background-color: var(--sage);
+    color:var(--rust);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    border-radius: 5%;
+    text-align:justify;
+    text-justify: center;
+    }
+
+    .avatar {
+      position: relative;
+      float: right;
+      top: 10px;
+      max-height: 250px;
+      max-width: 250px;
+      margin: 5px;
+      shape-outside: circle();
+    }
+
+    .service h3 {
+      font-size: 36px;
+      margin: 45px;
+      margin-bottom: 0px;
+    }
+
+    .service p {
+      max-width: 65%; 
+      margin: 5% 5% 15% 15%;
+      font-size: 28px;
+    }]
+
+
+/* floats */
+    .float-left {
+    float: left;
+    margin-right: 25px;
+    }
+
+    .float-right {
+    float: right;
+    margin-left: 25px;
+    }
+    .projects {
+      margin: 2%;
+      display: inline-block;
+      flex-direction: row;
+      position: relative;
+      
+    
+    }
+    .title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: var(--mustard);
+      border-radius:50%;
+      height:60%;
+      width:60%;
+      font-size: 100%;
+      text-align: center;
+      color:var(--green);
+      white-space:pre-wrap;
+      
+    }
+
+    .tile {
+      margin: 2%;
+      height:200px;
+      inline-size: 200px;
+      border-radius: 20%;
+      object-fit: cover;
+      background-color: var(--green);
+      
+
+    }
+
+    .tile:hover {
+      height: 220px;
+      inline-size: 220px;
+      
+    }
+
+    .contact{
+    display: inline-flex;
+    flex-direction: row;
+    margin: 2%;
+    max-height:35%;
+    inline-size: 10%;
+    justify-content: space-evenly;
+
+    }
+
+  /*footer*/
+  footer {
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: var(--black);
+    
+    }
