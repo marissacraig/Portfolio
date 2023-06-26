@@ -20,3 +20,5 @@ Because this is a personal portfolio, contributions are not needed.
 ## Project status
 
 The development of this project has slowed down.
+
+https://marissacraig.github.io/Portfolio/
