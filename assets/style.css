@@ -24,7 +24,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 80px;
     padding-bottom: 0px;
-    border-bottom: 90px solid var(--white);
+    border-bottom: 50px solid var(--white);
     margin-bottom: 60px;
     inline-size: 100%;
     }
@@ -32,15 +32,15 @@
   header h1 {
     position: relative;
     font-size: 750%;
-    margin-bottom: -70px;
+    margin-bottom: -50px;
     
     }
 
     hgroup p {
     position: inline-block;
     float: left;
-    margin: 5%;
-    width: 58%;
+    margin: 7%;
+    width: 59%;
     font-size: 40px;
     color: var(--black);
     font-weight: bold;
@@ -56,9 +56,10 @@
     .semi {
     position: relative;
     float: right;
-    right:20px;
-    max-height: 300px;
-    inline-size: 300px;
+    right:70px;
+    top: 60px;
+    max-height: 275px;
+    inline-size: 275px;
     
     }
 
@@ -102,7 +103,7 @@
 
   .service {
     display: inline-block;
-    margin-bottom: 40px;
+    margin: 20px;
     height: fit-content;
     inline-size: 100%;
     padding: 20px;
@@ -110,14 +111,18 @@
     color:var(--rust);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     border-radius: 5%;
+    text-align:justify;
+    text-justify: center;
     }
 
     .avatar {
       position: relative;
       float: right;
-      top: 20px;
-      max-height: 200px;
-      max-width: 200px;
+      top: 10px;
+      max-height: 250px;
+      max-width: 250px;
+      margin: 5px;
+      shape-outside: circle();
     }
 
     .service h3 {
@@ -147,9 +152,8 @@
       margin: 2%;
       display: inline-block;
       flex-direction: row;
-      height: 20%;
-      inline-size: 20%;
       position: relative;
+      
       
     
     }
@@ -172,16 +176,17 @@
     .tile {
       margin: 2%;
       height:200px;
-      inline-size: 90%;
+      inline-size: 200px;
       border-radius: 20%;
       object-fit: cover;
+      background-color: var(--green);
       
 
     }
 
     .tile:hover {
       height: 220px;
-      inline-size: 100%;
+      inline-size: 220px;
       
     }
 
